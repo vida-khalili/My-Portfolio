@@ -140,6 +140,23 @@ div.contactBar {
 .contactLink:hover {
   color: var(--secondary-color);
 }
+.projectsContent {
+  margin-top: 100px;
+}
+.projectsContent h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.projectsContent h2 {
+  color: var(--primary-color);
+  font-size: 20px;
+}
+.projectsContent h3 {
+  color: var(--primary-color);
+  font-size: 18px;
+}
 
 @media (max-width: 576px) {
   h1 {
@@ -152,7 +169,7 @@ div.contactBar {
     font-size: 22px;
     padding: 0 5px;
   }
-  
+
   .descriptionOne {
     font-size: 18px;
     padding: 0 3px;
