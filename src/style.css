@@ -4,12 +4,13 @@
   --box-shadow: 2px 2px 10px #gray;
 }
 
-html {
+html,
+body {
   height: 100%;
 }
 body {
   font-family: "Josefin Sans", sans-serif;
-  background-color: #1c2e4a;
+  background-color: #081a3d;
 }
 
 .navbarItems a {
@@ -17,80 +18,66 @@ body {
 }
 
 .heading {
-  margin-top: 100px;
+  margin-left: 5%;
+  height: 100%;
 }
-
+.bg-img {
+  position: relative;
+  max-width: 720px;
+  padding: 0;
+  float: right;
+  bottom: 12%;
+}
+.heading .row {
+  align-items: center;
+  position: relative;
+  top: 20%;
+  margin: 0 auto;
+}
 h1,
 h2,
 h3 {
-  text-align: center;
+  text-align: left;
   color: var(--primary-color);
 }
 
 h2 {
-  font-size: 40px;
+  top: 50%;
+  font-size: 42px;
 }
 h1 {
-  font-size: 52px;
+  font-size: 56px;
 }
 h3 {
-  font-size: 36px;
+  font-size: 34px;
 }
 
-.navigationButtons {
-  display: flex;
-  margin-top: 50px;
-  justify-content: center;
-}
 h4 {
   font-size: 40px;
   margin-bottom: 20px;
 }
 
+.downLink {
+  position: relative;
+  animation-name: downArrow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes downArrow {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 5px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
 a {
-  color: var(--primary-color);
-  font-size: 24px;
-}
-
-.contactMe {
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
-  padding: 10px;
-  color: #333333;
-  background-color: var(--secondary-color);
-  border-radius: 10px;
-  box-shadow: var(--box-shadow);
-  text-decoration: none;
-  transition: all 200ms ease-in-out;
-}
-
-.contactMe:hover {
-  background-color: var(--primary-color);
-}
-
-.aboutMe {
-  margin-left: 10px;
-  padding: 10px;
   color: var(--secondary-color);
-  border-radius: 10px;
-  border: 2px solid var(--secondary-color);
-  box-shadow: var(--box-shadow);
-  text-decoration: none;
-  transition: all 200ms ease-in-out;
-}
-
-.aboutMe:hover {
-  color: var(--primary-color);
-}
-
-.backToHome {
-  margin-top: 20px;
-}
-
-.backToHome a {
-  font-size: 20px;
-  color: antiquewhite;
+  font-size: 24px;
 }
 
 .aboutBox {
