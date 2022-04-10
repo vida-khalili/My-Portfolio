@@ -60,7 +60,7 @@ h4 {
 .downLink {
   position: relative;
   animation-name: downArrow;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   animation-iteration-count: infinite;
 }
 @keyframes downArrow {
@@ -80,6 +80,13 @@ a {
   font-size: 24px;
 }
 
+
+.contentTitle {
+  color: var(--secondary-color);
+  text-align: center;
+  font-size: 28px;
+  margin: 50px auto 30px auto;
+}
 .aboutBox {
   margin: 120px auto 80px auto;
   max-width: 800px;
