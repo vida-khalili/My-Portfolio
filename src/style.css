@@ -34,6 +34,10 @@ body {
   top: 20%;
   margin: 0 auto;
 }
+
+.content p {
+  font-size: 18px;
+}
 h1,
 h2,
 h3 {
@@ -79,7 +83,6 @@ a {
   color: var(--secondary-color);
   font-size: 24px;
 }
-
 
 .contentTitle {
   color: var(--secondary-color);
