@@ -14,7 +14,7 @@ body {
 }
 
 .heading {
-  margin: 10% 0 0 5%;
+  margin: 0 0 0 5%;
   height: 100%;
 }
 .bg-img {
@@ -231,12 +231,7 @@ footer .socialLinks a {
     font-size: 18px;
     padding: 0 3px;
   }
-  .heading {
-    margin-top: 150px;
-  }
-  .heading img{
-    margin-top: 50px;
-  }
+
   .contentTitle {
     font-size: 24px;
   }
@@ -261,6 +256,16 @@ footer .socialLinks a {
   }
 }
 @media (max-width: 920px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 28px;
+      }
+  h3 {
+    font-size: 22px;
+    padding: 0 5px;
+  }
   .contactInfo a {
     font-size: 18px;
   }
