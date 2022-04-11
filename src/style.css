@@ -98,6 +98,7 @@ h4 {
   max-width: 800px;
 }
 .aboutBox h1 {
+  font-size: 36px;
   margin-bottom: 20px;
   text-align: center;
   color: var(--secondary-color);
@@ -140,6 +141,7 @@ div.contactBar {
   margin-top: 100px;
 }
 .projectsContent h1 {
+  font-size: 30px;
   margin-bottom: 20px;
   text-align: center;
   color: var(--secondary-color);
@@ -155,10 +157,11 @@ div.contactBar {
 }
 .contactContent {
   margin-top: 100px;
-  padding: 0 10% 0 10%;
+  padding: 0 5% 0 10%;
 }
 
 .contactContent h1 {
+  font-size: 36px;
   margin-bottom: 20px;
   text-align: center;
   color: var(--secondary-color);
@@ -214,11 +217,11 @@ footer .socialLinks a {
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 46px;
-  }
-  h2 {
     font-size: 30px;
   }
+  h2 {
+    font-size: 24px;
+      }
   h3 {
     font-size: 22px;
     padding: 0 5px;
@@ -229,10 +232,16 @@ footer .socialLinks a {
     padding: 0 3px;
   }
   .heading {
-    margin-top: 20%;
+    margin-top: 150px;
+  }
+  .heading img{
+    margin-top: 50px;
+  }
+  .contentTitle {
+    font-size: 24px;
   }
   .projectsContent h1 {
-    font-size: 36px;
+    font-size: 24px;
   }
   footer {
     margin: 20px 5px;
@@ -245,5 +254,17 @@ footer .socialLinks a {
   }
   footer .contactBox p {
     font-size: 16px;
+  }
+
+  .contactInfo a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 920px) {
+  .contactInfo a {
+    font-size: 18px;
+  }
+  .projectsContent h1 {
+    font-size: 26px;
   }
 }
