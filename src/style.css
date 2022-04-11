@@ -180,10 +180,41 @@ div.contactBar {
   float: right;
   padding-right: 0;
 }
+footer {
+  margin: 60px;
+}
+
+footer .contactBox {
+  background-color: #1b2d507a;
+  padding: 30px 30px;
+  color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+footer .contactBox h4 {
+  font-size: 36px;
+  margin: 0;
+}
+footer .contactBox p {
+  margin: 0;
+}
+footer .socialLinks {
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer .socialLinks a {
+  font-size: 24px;
+  color: var(--secondary-color);
+  padding-left: 10px;
+}
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 48px;
+    font-size: 46px;
   }
   h2 {
     font-size: 30px;
@@ -196,5 +227,23 @@ div.contactBar {
   .descriptionOne {
     font-size: 18px;
     padding: 0 3px;
+  }
+  .heading {
+    margin-top: 20%;
+  }
+  .projectsContent h1 {
+    font-size: 36px;
+  }
+  footer {
+    margin: 20px 5px;
+  }
+  footer .contactBox {
+    padding: 10px;
+  }
+  footer .contactBox h4 {
+    font-size: 18px;
+  }
+  footer .contactBox p {
+    font-size: 16px;
   }
 }
