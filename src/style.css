@@ -34,6 +34,11 @@ body {
 .content p {
   font-size: 18px;
 }
+
+.card-body p {
+  font-size: 14px;
+}
+
 h1,
 h2,
 h3 {
