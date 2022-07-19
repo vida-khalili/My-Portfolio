@@ -68,15 +68,25 @@ h4 {
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
 }
+
+.read-more{
+  text-align: center;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.read-more:hover{
+  color: #ffc700;
+}
 @keyframes downArrow {
   0% {
-    top: 0px;
+    top: 0;
   }
   50% {
     top: 5px;
   }
   100% {
-    top: 0px;
+    top: 0;
   }
 }
 
@@ -122,7 +132,7 @@ h4 {
   text-align: center;
   color: var(--primary-color);
   line-height: 1.5;
-  margin: 10px 10px 30px 0px;
+  margin: 10px 10px 30px 0;
   font-size: 18px;
 }
 .descriptionOne a {
